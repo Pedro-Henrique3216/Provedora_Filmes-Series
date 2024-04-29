@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+h1, h2, h3, p{
+    color: #ffffff;
+}
+
+.destaques{
+    margin: 20px 0;
+    height: auto;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.titulo_destaque{
+    margin: 30px 10px 0;
+}
+
+.filmes_destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filme, .serie, iframe{
+    border: 5px solid black;
+    height: 300px;
+    width: 500px;
+}
+
+.img_filmes_e_series{
+    height: 300px;
+    width: 500px;
+}
+
+.series_destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filmes_destaques, .series_destaques{
+    margin: 20px 10px 50px 0;
+}
+
+.trailer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: black;
+    
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dados{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+
