@@ -14,8 +14,18 @@ header{
     align-items: center;
 }
 
+.logo{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+
 h1, h2, h3, p{
     color: #ffffff;
+}
+
+h1{
+    text-transform: uppercase;
 }
 
 .destaques{
