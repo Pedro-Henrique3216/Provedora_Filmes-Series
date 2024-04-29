@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: gray;
+    background-color: black;
 }
 header{
     background-color: black;
@@ -12,6 +12,7 @@ header{
     padding: 10px;
     height: 100px;
     align-items: center;
+    border-bottom: 3px solid gray;
 }
 
 .logo{
@@ -20,18 +21,18 @@ header{
     margin: 20px;
 }
 
-h1, h2, h3, p{
-    color: #ffffff;
-}
-
 h1{
     text-transform: uppercase;
+    color: red;
+}
+
+h2, h3, p{
+    color: #ffffff;
 }
 
 .destaques{
     margin: 20px 0;
     height: auto;
-    border: 5px solid black;
     text-align: center;
 }
 
@@ -45,10 +46,10 @@ h1{
     justify-content: space-around;
 }
 
-.filme, .serie, iframe{
-    border: 5px solid black;
+.filme, .serie, iframe{ 
     height: 300px;
     width: 500px;
+    padding: 10px;
 }
 
 .img_filmes_e_series{
@@ -92,10 +93,12 @@ a:hover{
 
 
 footer{
+    border-top: 3px solid gray;
     background-color: black;
     width: 100%;
     margin-top: 20px;
     text-align: center;
+    padding: 10px 0;
 }
 
 .dados{
@@ -103,6 +106,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     border: 2px solid white;
+    padding: 10px;
 }
 
 
