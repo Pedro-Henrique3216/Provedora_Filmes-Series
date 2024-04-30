@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    border-bottom: 3px solid gray;
+}
+
+.logo{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: red;
+}
+
+h3, h2{
+    color: white;
+}
+
+.filmes1, .filmes2{
+    margin: 20px 0;
+    height: auto;
+    text-align: center;
+}
+
+.titulo{
+    margin: 30px 10px 10px;
+}
+
+.todos_filmes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.img_filmes{
+    height: 300px;
+    width: 500px;
+}
+
+.filmes2{
+    margin-top: 50px;
+}
+
+.navegacao{
+    border-top: 3px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: gray;
+    
+}
+
