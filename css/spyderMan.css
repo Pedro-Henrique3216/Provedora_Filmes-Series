@@ -9,10 +9,40 @@ header{
     background-color: black;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     height: 100px;
+    border-bottom: 3px solid red;
+}
+
+.marca{
+    display: flex;
+    justify-content: row;
     align-items: center;
-    border-bottom: 3px solid gray;
+}
+
+.navegacao ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 3px;
+}
+
+.navegacao li{
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: gray;
+    
 }
 
 .logo{
@@ -68,23 +98,4 @@ ul{
 li{
     color: white;
     margin: 5px;
-}
-
-.navegacao{
-    border-top: 3px solid gray;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 20px;
-    padding: 3px;
-}
-
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a:hover{
-    color: gray;
-    
 }
