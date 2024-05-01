@@ -46,4 +46,9 @@
     width: 70%;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.carro img:hover{
+    padding: 20px;
 }
