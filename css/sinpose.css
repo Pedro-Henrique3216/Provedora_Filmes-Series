@@ -42,7 +42,7 @@ body{
 }
 
 
-.divisao{
+.divisao, .divisao2{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -85,5 +85,9 @@ body{
 
 .sinopse div{
     text-align: center;
-    margin: 50px 10px;
+    margin: 50px 0;
+}
+
+.divisao2{
+    justify-content: space-around;
 }
