@@ -1,29 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 body{
     background-color: black;
 }
-header{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    height: 100px;
-    align-items: center;
-    border-bottom: 3px solid gray;
-}
 
 header{
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    height: 100px;
-    border-bottom: 3px solid red;
+    padding: 20px;
+    border-bottom: 2px solid red;
 }
 
 .marca{
@@ -56,9 +47,9 @@ a:hover{
 }
 
 .logo{
-    height: 100px;
-    width: 200px;
-    margin: 20px;
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
 }
 
 h1{
@@ -72,39 +63,30 @@ h2, h3, p{
 
 .destaques{
     margin: 20px 0;
-    height: auto;
     text-align: center;
 }
 
 .titulo_destaque{
-    margin: 30px 10px 0;
+    margin: 30px 0;
 }
 
-.filmes_destaques{
+.destaque{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 20px 10px 50px 0;
 }
 
-.filme, .serie, iframe{ 
-    height: 300px;
-    width: 500px;
-    padding: 10px;
+.destaque h3{
+    margin-top: 10px;
 }
 
 .img_filmes_e_series{
-    height: 300px;
-    width: 500px;
-}
-
-.series_destaques{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.filmes_destaques, .series_destaques{
-    margin: 20px 10px 50px 0;
+    width: 400px;
+    height: 225px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px red;
 }
 
 .trailer{
@@ -115,10 +97,8 @@ h2, h3, p{
 }
 
 footer{
-    border-top: 3px solid gray;
+    border-top: 2px solid red;
     background-color: black;
-    width: 100%;
-    margin-top: 20px;
     text-align: center;
     padding: 10px 0;
 }
@@ -127,7 +107,6 @@ footer{
     width: 30%;
     margin-left: auto;
     margin-right: auto;
-
     padding: 10px;
 }
 
