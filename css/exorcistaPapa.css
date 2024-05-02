@@ -22,6 +22,11 @@ header{
     align-items: center;
 }
 
+.titulo{
+    color: white;
+    letter-spacing: 5px;
+}
+
 .navegacao ol{
     display: flex;
     flex-direction: row;
