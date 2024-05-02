@@ -42,13 +42,7 @@
     padding: 40px;
 }
 
-.carro img{
-    width: 70%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px black;
-    transition: 0.4s;
-    cursor: pointer;
-}
-.carro img:hover{
+.img_series{
+    width: 400px;
     padding: 20px;
 }
