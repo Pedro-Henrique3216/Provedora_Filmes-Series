@@ -86,4 +86,15 @@ h3, h2{
     margin-top: 50px;
 }
 
+.filmes1 img, .filmes2 img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.filmes1 img:hover, .filmes2 img:hover{
+    background-color: white;
+    padding: 10px;
+}
 
