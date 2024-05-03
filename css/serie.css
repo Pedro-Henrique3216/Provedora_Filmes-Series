@@ -42,9 +42,9 @@ body{
 }
 
 .carro{
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
     padding: 40px;
 }
 
