@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid red;
+}
+
+.marca{
+    display: flex;
+    align-items: center;
+}
+
+.navegacao ol{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 3px;
+}
+
+.navegacao li{
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: gray;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
+}
+
+main section {
+    text-align: center;
+    margin: 20px;
+}
+
+.titulo_categoria{
+    margin: 10px;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 3px 3px 4px red;
+}
+
+.filme{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+}
+
+.filme img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.filme button{
+    width: 50%;
+    margin: 0 auto;
+    background-color: red;
+}
