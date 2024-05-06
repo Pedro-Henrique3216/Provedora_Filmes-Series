@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="marca">
+            <img class="logo" src="../imagens/logo.jpeg" alt="Logo do site">
+            <h1>StreamFlix</h1>
+        </section>
+
+        <section class="navegacao">
+            <ol>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="PagSeries.html">Series</a></li>
+                <li><a href="">Formulario</a></li>
+            </ol>
+        </section>
+    </header>
+
+    <div class="formulario">
+        <h3>Informe seus Dados</h3>
+        <input placeholder="Digite seu Número" type="tel">
+        <input placeholder="Digite seu E-Mail" type="email">
+        <input placeholder="Digite seu CPF" type="text">
+        <input placeholder="Cidade" type="text"> <br><br>
+        <button onclick="Enviar()">
+            Enviar dados
+        </button>
+    </div>
+
+    <script>
+        function Enviar() {
+            alert("Formulário enviado com sucesso!");
+        }
+    </script>
+</body>
+</html>
