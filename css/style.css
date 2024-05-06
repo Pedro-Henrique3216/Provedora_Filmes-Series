@@ -23,6 +23,12 @@ header{
 .marca{
     display: flex;
     align-items: center;
+    font-size: 21px;
+}
+
+.nav a{
+    margin: 10px;
+    text-transform: uppercase;
 }
 
 .navegacao ol{
@@ -100,6 +106,56 @@ h1{
 iframe{
     width: 40%;
     height: 250px;
+}
+
+.sobre_nos{
+    margin: 20px;
+    padding: 20px   ;
+    box-shadow: 4px 4px 4px red;
+}
+
+#boas_vindas, .sobre_nos h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.sobre_nos p{
+    margin-bottom: 20px;
+    text-indent: 2em;
+}
+
+.sobre_nos b{
+    color: red;
+}
+
+.assinatura{
+    margin: 20px 0;
+}
+
+.assinatura h1{
+    text-align: center;
+}
+
+.planos{
+    display: flex;
+    padding: 10px;
+}
+
+.assinatura div{
+    margin: 0 20px;
+}
+
+.plano{
+    padding: 20px;
+    box-shadow: 4px 4px 4px red;
+}
+
+.plano h3{
+    margin: 10px 0;
+}
+
+.plano li{
+    margin-bottom: 10px;
 }
 
 footer{
