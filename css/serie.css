@@ -3,43 +3,62 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    box-sizing: border-box;
 }
-
 body{
     background-color: black;
-}
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
-.topo{
-    background-color: rgb(0, 0, 0);
+}
+header{
+    display: flex;
     justify-content: space-between;
-    display: flex;
+    align-items: center;
     padding: 20px;
-    border-bottom: 2px solid rgb(255, 0, 0);
+    border-bottom: 2px solid red;
 }
 
-.topo h1 {
-    color: white;
-}
-
-.sup{
-    margin: 0;
-}
-
-.topo ol{
-    color: white;
+.marca{
     display: flex;
-    padding: 10px;
+    align-items: center;
 }
 
-.topo li{
-    list-style-type: none;
-    padding-right: 30px;
-}
-
-.topo a{
-    text-decoration: none;
+.titulo{
     color: white;
 }
+
+.navegacao ol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao li{
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao a:hover{
+    color: gray;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: red;
+}   
 
 .carro{
     justify-content: space-evenly;
